@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myAccountsFragment"
+        android:title="@string/my_accounts"
+        android:icon="@drawable/baseline_star_rate_24"/>
+
+    <item
+        android:id="@+id/simulationFragment"
+        android:title="@string/simulation"
+        android:icon="@drawable/baseline_star_rate_24"/>
+
+    <item
+        android:id="@+id/forYouToPlayFragment"
+        android:title="@string/for_you_to_play"
+        android:icon="@drawable/baseline_star_rate_24"/>
+
+</menu>

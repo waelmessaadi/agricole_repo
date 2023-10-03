@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/myAccountsFragment">
+    <fragment
+        android:id="@+id/myAccountsFragment"
+        android:name="com.templeton.agricol_app.presentation.myaccounts.MyAccountsFragment"
+        android:label="fragment_my_accounts"
+        tools:layout="@layout/fragment_my_accounts" >
+        <action
+            android:id="@+id/action_myAccountsFragment_to_myOperationsFragment"
+            app:destination="@id/myOperationsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/myOperationsFragment"
+        android:name="com.templeton.agricol_app.presentation.myoperations.MyOperationsFragment"
+        android:label="fragment_my_operations"
+        tools:layout="@layout/fragment_my_operations">
+    <argument
+        android:name="operationDataArgs"
+        app:argType="com.templeton.agricol_app.data.models.Account" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/simulationFragment"
+        android:name="com.templeton.agricol_app.presentation.simulation.SimulationFragment"
+        android:label="fragment_simulation"
+        tools:layout="@layout/fragment_simulation" />
+    <fragment
+        android:id="@+id/forYouToPlayFragment"
+        android:name="com.templeton.agricol_app.presentation.foryoutoplay.ForYouToPlayFragment"
+        android:label="fragment_for_you_to_play"
+        tools:layout="@layout/fragment_for_you_to_play" />
+</navigation>

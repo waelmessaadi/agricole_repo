@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#999999</color>
+    <color name="gray_cloud">#F3F0F0</color>
+    <color name="color_tab_selected">#0D92EA</color> <!-- Selected tab color -->
+    <color name="color_tab_unselected">#999999</color>
+</resources>

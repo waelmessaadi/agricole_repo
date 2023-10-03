@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">agricol-app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_accounts">Mes Comptes</string>
+    <string name="credit_agricole_title">Credit Agricole</string>
+    <string name="others_banks">Autres Banques</string>
+    <string name="currency_symbole">€</string>
+    <string name="simulation">Simulation</string>
+    <string name="for_you_to_play">à vous de jouer</string>
+</resources>
